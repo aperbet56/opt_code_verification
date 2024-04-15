@@ -93,3 +93,37 @@ body {
 .verify__btn:hover{
     opacity: 0.7;
 }
+
+/**** Responsive design ****/
+
+@media screen and (max-width: 472px) {
+    body {
+        padding: 0 12px;
+    }
+    .container {
+        max-width: 100%;
+        gap: 0.75em;
+        padding: 0.75em;
+    }
+
+    .content h2 {
+        font-size: 17px;
+    }
+
+    .content p {
+        font-size: 14px;
+    }
+
+    .inputs {
+        max-width: 100%;
+    }
+
+    .inputs input {
+        width: 35px;
+        height: 35px;
+    }
+
+    .verify__btn {
+        font-size: 17px;
+    }
+}
