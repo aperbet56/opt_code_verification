@@ -9,7 +9,7 @@ optInputs.forEach((input) => {
   // Ecoute de l'événement "input" sur le champs de formulaire
   input.addEventListener("input", () => {
     const currentInput = input;
-    const nextInput = currentInput.nextElementSibling;
+    const nextInput = currentInput.nextElementSibling; // La propriété Element.nextElementSibling renvoie l'élément qui suit immédiatement celui spécifié dans la liste des enfants de son parent, ou null si l'élément spécifié est le dernier de la liste.
 
     if (
       nextInput !== null &&
@@ -34,7 +34,7 @@ optInputs.forEach((input) => {
       if (input.previousElementSibling != null) {
         e.target.value = "";
         e.target.setAttribute("disabled", true);
-        input.previousElementSibling.focus();
+        input.previousElementSibling.focus(); // La propriété Element.previousElementSibling renvoie l'élément immédiatement avant celui spécifié dans la liste des enfants de son parent, ou null si l'élément spécifié est le premier de la liste.
       }
     }
   });
