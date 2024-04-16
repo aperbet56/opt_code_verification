@@ -13,8 +13,7 @@ Lien vers le projet : https://aperbet56.github.io/opt_code_verification/
 - Utilisation des balises sémantiques HTML5
 - CSS
 - Flexbox
-- Grid
-- Animation CSS
+- Animations CSS (opacity, box-shadow ...)
 - Page web responsive
 - Desktop first
 - Utilisation d'un normaliseur : le fichier normalize.css
