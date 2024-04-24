@@ -11,7 +11,7 @@ Lien vers le projet : https://aperbet56.github.io/opt_code_verification/
 ## Développez avec
 
 - Utilisation des balises sémantiques HTML5
-- CSS
+- CSS3
 - Flexbox
 - Animations CSS (opacity, box-shadow ...)
 - Page web responsive
