@@ -3,6 +3,7 @@
 ## Le challenge
 
 Création d'un système de vérification : OPT. Un OTP est un code de vérification à durée limitée qui est envoyé à votre adresse e-mail ou sur votre mobile afin que vous puissiez valider votre identité.
+Création d'une fonction generateOPT qui va permettre de générer un opt de manière aléatoire. Pour obtenir l'OPT, ouvrir l'inspecteur de votre navigateur !!
 
 ## Démonstration
 
