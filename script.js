@@ -39,3 +39,18 @@ optInputs.forEach((input) => {
     }
   });
 });
+
+// Déclaration de la fonction generateOPT qui va permettre de générer un opt de manière aléatoire
+const generateOPT = () => {
+  const digits = "0123456789";
+  const lenghtOPT = 6;
+  let opt = "";
+  for (let i = 0; i < lenghtOPT; i++) {
+    opt += digits[Math.floor(Math.random() * 10)];
+  }
+  console.log(`Votre opt: ${opt}`);
+  return opt;
+};
+
+// Appel de la fonction generateOPT()
+generateOPT();
